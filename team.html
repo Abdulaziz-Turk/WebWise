@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Our team</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3 active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="team.html">Our team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="form.html">Contact us</a>
+            </li>
+          </ul>
+          <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a class="btn rounded-pill main-btn" href="login.html">Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Team-->
+    <div class="team text-center pb-5 pt-5">
+      <div class="container pb-5 pt-5">
+        <h2 class="fw-bold">Meet The Team</h2>
+        <p class="text-black-50 mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea
+          dignissimos dolor beatae modi a, enim molestiae, nemo quis molestias
+          saepe nostrum tempora asperiores neque illum sint rem accusamus
+          perferendis.
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="img/team-1.webp" alt="" />
+              <h4 class="p-3 text-light">Jack</h4>
+              <blockquote class="text-black-50 p-3">
+                Frontend developer
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="img/team-2.webp" alt="" />
+              <h4 class="p-3 text-light">Lisa</h4>
+              <blockquote class="text-black-50 p-3">
+                Backend developer
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="img/team-3.webp" alt="" />
+              <h4 class="p-3 text-light">Linda</h4>
+              <blockquote class="text-black-50 p-3">UX-designer</blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="img/team-4.webp" alt="" />
+              <h4 class="p-3 text-light">Pär</h4>
+              <blockquote class="text-black-50 p-3">
+                Full-stack developer
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+      <div class="container">
+        <div class="row gap-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-5">
+              <img src="img/logo.png" alt="" class="mb-4" />
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti cumque recusandae fugit.
+              </p>
+              <div class="copyright">
+                <div>&copy; 2024 - <span>WEBWISE</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>
+                  <a
+                    class="link-underline link-underline-opacity-0 text-white-50"
+                    href="login.html"
+                    >Sign in
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-underline link-underline-opacity-0 text-white-50"
+                    href="register.html"
+                    >Sign up
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-underline link-underline-opacity-0 text-white-50"
+                    href="team.html"
+                    >Our team
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-4">Get in touch with us via mail.</p>
+              <a class="btn rounded-pill main-btn w-50" href="form.html"
+                >Contact us</a
+              >
+              <ul class="d-flex mt-5 list-unstyled gap-3">
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-3"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-x-twitter fa-lg x-twitter rounded-circle p-3"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-3"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-3"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--JS-länkar-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/all.min.js"></script>
+  </body>
+</html>
